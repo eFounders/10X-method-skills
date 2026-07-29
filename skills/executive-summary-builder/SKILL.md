@@ -1,6 +1,6 @@
 ---
 name: executive-summary-builder
-description: Write a fundraising executive summary using Hexa's 10x Method 7-question structure (opportunity, why you, step one, path to $100M ARR, why now, why you'll win, key takeaway). Use whenever a founder is preparing to fundraise, needs to nail their narrative before building a pitch deck, or asks for help articulating their startup story for investors.
+description: Write a fundraising executive summary in Hexa's 10x Method 7-question structure. Use before building a pitch deck or to nail a fundraising narrative.
 ---
 
 # Executive Summary Builder

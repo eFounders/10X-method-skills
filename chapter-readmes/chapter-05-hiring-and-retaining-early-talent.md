@@ -25,9 +25,9 @@ Criteria capped at 12, split into Must/Should/Nice to Have, covering hard skills
 
 - 🥇 **Job Description Builder**
 - 🥇 **Scorecard Builder**
-- 🥈 Hiring Case Study Designer (not yet built — solid tier)
-- 🥈 Reference Check Script Builder (not yet built — solid tier)
-- 🥈 Onboarding Ritual Builder (not yet built — solid tier)
+- 🥈 Hiring Case Study Designer → skill `hiring-case-study-designer`
+- 🥈 Reference Check Script Builder → skill `reference-check-script-builder`
+- 🥈 Onboarding Ritual Builder → skill `onboarding-ritual-builder`
 
 ## Notable quotes
 

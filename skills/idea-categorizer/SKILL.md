@@ -1,6 +1,6 @@
 ---
 name: idea-categorizer
-description: Classify a raw startup idea against Hexa's 10x Method 3-category framework (problem-solution fit, market/technology shift, category creation) and get category-specific tactics for finding and sharpening it further. Use whenever a founder describes a rough startup idea, asks "is this a good idea?", "what kind of idea is this?", or wants help figuring out where to look for their next idea.
+description: Classify a startup idea into Hexa's 3 idea categories (problem-solution fit, market/tech shift, category creation) and get tailored discovery tactics. Use for any rough startup idea.
 ---
 
 # Idea Categorizer

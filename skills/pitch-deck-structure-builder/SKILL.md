@@ -1,6 +1,6 @@
 ---
 name: pitch-deck-structure-builder
-description: Structure a fundraising pitch deck using Hexa's 10x Method 11-section flow (vision, pain, solution, founder-market fit, market, product, pricing, traction, team, roadmap, path to $100M ARR), plus 6 expert tips. Use whenever a founder is building or reviewing a pitch deck, preparing to fundraise, or asks for slide-by-slide deck structure or feedback.
+description: Structure a pitch deck in Hexa's 10x Method 11-section flow plus 6 expert tips. Use for building or reviewing a fundraising deck.
 ---
 
 # Pitch Deck Structure Builder

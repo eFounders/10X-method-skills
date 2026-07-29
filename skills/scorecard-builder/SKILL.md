@@ -1,6 +1,6 @@
 ---
 name: scorecard-builder
-description: Build a structured hiring scorecard (criteria, priority, skill type, expectations, key interview question) following Hexa's 10x Method, capped at 12 criteria and covering hard skills, soft skills, and behaviors. Use whenever a founder is preparing to interview candidates, wants to reduce hiring bias, or asks for interview questions or an evaluation framework for a role.
+description: Build a hiring scorecard (criteria, priority, skill type, question) per Hexa's 10x Method, capped at 12 criteria. Use when preparing candidate interviews.
 ---
 
 # Scorecard Builder

@@ -27,9 +27,9 @@ Define the emotional response you want (e.g. Spendesk = liberation, Swan = quiet
 
 - 🥇 **Brand Foundations Builder**
 - 🥇 **Brand Voice Finder**
-- 🥈 Website Structure & Tagline Builder (not yet built — solid tier)
-- 🥈 Founder Branding Content Planner (not yet built — solid tier)
-- 🥈 PR Pitch Angle Builder (not yet built — solid tier)
+- 🥈 Website Structure & Tagline Builder → skill `website-tagline-builder`
+- 🥈 Founder Branding Content Planner → skill `founder-branding-content-planner`
+- 🥈 PR Pitch Angle Builder → skill `pr-pitch-angle-builder`
 
 ## Notable quotes
 

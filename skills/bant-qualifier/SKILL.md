@@ -1,6 +1,6 @@
 ---
 name: bant-qualifier
-description: Qualify a design-partner or early-sales prospect call using the BANT framework (Budget, Authority, Need, Timing) from Hexa's 10x Method, and get a clear next-step recommendation. Use whenever a founder describes a sales/discovery call they just had or are about to have, and wants help deciding whether to pursue, pause, or escalate a lead.
+description: Qualify a sales or design-partner call using BANT (Budget, Authority, Need, Timing) per Hexa's 10x Method, with a next-step recommendation. Use after a discovery call.
 ---
 
 # BANT Qualifier

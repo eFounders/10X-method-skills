@@ -1,6 +1,6 @@
 ---
 name: cofounder-alignment-assessor
-description: Assess alignment between (potential) cofounders using Hexa's 10x Method framework of 5 non-negotiables (long-term vision, ambition, commitment, ways of working, culture) plus complementarity and trust signals. Use whenever a founder is evaluating a potential cofounder, has doubts about an existing cofounder relationship, is preparing "the talk" before committing, or asks for cofounder interview questions.
+description: Assess cofounder alignment using Hexa's 5 non-negotiables (vision, ambition, commitment, ways of working, culture) plus trust signals. Use for cofounder evaluation or doubts.
 ---
 
 # Cofounder Alignment Assessor

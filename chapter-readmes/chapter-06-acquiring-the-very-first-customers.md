@@ -27,10 +27,10 @@ Quarterly GTM rituals + weekly GTM sprints — same cadence philosophy as the pr
 
 - 🥇 **Design Partner Deck Builder**
 - 🥇 **BANT Qualifier**
-- 🥈 ICP Definer & Refiner (not yet built — solid tier)
-- 🥈 DP Offer & Pricing Helper (not yet built — solid tier)
-- 🥈 GTM Ritual Setup (not yet built — solid tier)
-- 🥈⚠️ Outbound Sequence Builder (not yet built — solid tier; overlaps with Lemlist's own skill offering, kept anyway per team decision)
+- 🥈 ICP Definer & Refiner → skill `icp-definer-refiner`
+- 🥈 DP Offer & Pricing Helper → skill `dp-offer-pricing-helper`
+- 🥈 GTM Ritual Setup → skill `gtm-ritual-setup`
+- 🥈⚠️ Outbound Sequence Builder → skill `outbound-sequence-builder` (overlaps with Lemlist's own offering, kept per team decision)
 
 ## Notable quotes
 

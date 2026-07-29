@@ -1,6 +1,6 @@
 ---
 name: design-partner-deck-builder
-description: Build a Design Partner (DP) program pitch deck following Hexa's 10x Method 6-section structure, used to recruit and sell a startup's first paying design partners before the product is finished. Use whenever a founder is preparing to find their first customers, run a design partner program, or asks for help pitching an early-access/pilot program.
+description: Build a Design Partner program deck (6 sections) per Hexa's 10x Method, to sell early access before the product is finished. Use for first-customer pitches.
 ---
 
 # Design Partner Deck Builder

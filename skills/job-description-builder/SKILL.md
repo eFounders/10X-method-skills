@@ -1,6 +1,6 @@
 ---
 name: job-description-builder
-description: Write an early-stage job description following Hexa's 10x Method 7-section structure (title, about the company, missions, stack, requirements, why join, hiring timeline). Use whenever a founder needs to write or improve a job posting, is hiring their first employees, or asks for help with a JD, job post, or job ad.
+description: Write an early-stage job description in Hexa's 10x Method 7-section structure (title, about, missions, stack, requirements, why join, timeline). Use for any JD request.
 ---
 
 # Job Description Builder

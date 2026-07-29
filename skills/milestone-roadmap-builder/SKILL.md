@@ -1,6 +1,6 @@
 ---
 name: milestone-roadmap-builder
-description: Build a lightweight milestone roadmap (Objective / Why it's a priority / Key things to build / When) instead of a Gantt-chart-style product roadmap, following Hexa's 10x Method. Use whenever a founder asks for help with product planning, a roadmap, prioritization, or says they're stuck in over-detailed planning.
+description: Build a lightweight milestone roadmap (Objective/Why/What/When) instead of a Gantt roadmap, per Hexa's 10x Method. Use for product planning or roadmap requests.
 ---
 
 # Milestone Roadmap Builder

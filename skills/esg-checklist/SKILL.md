@@ -1,6 +1,6 @@
 ---
 name: esg-checklist
-description: Generate a personalized early-stage ESG (Environment, Social, Governance) checklist with status tracking, following Hexa's 10x Method. Use whenever a founder asks about ESG, responsible company-building, DEI, data ethics, or wants to prepare for future investor ESG due diligence without over-investing at the early stage.
+description: Generate a personalized early-stage ESG checklist (Environment, Social, Governance) per Hexa's 10x Method. Use for ESG, DEI, or data ethics questions.
 ---
 
 # Early-Stage ESG Checklist

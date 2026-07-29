@@ -1,6 +1,6 @@
 ---
 name: brand-foundations-builder
-description: Define a startup's core brand foundations (driving force, long-term vision, mission, who you serve, core benefit, what makes you special) using Hexa's 10x Method 6-question template. Use whenever a founder wants to clarify their brand, positioning, or messaging, or asks "who are we as a company" / "what's our story" before writing landing page copy, a pitch deck, or marketing content.
+description: Define brand foundations (driving force, vision, mission, audience, benefit, differentiator) via Hexa's 10x Method 6-question template. Use before writing brand copy.
 ---
 
 # Brand Foundations Builder

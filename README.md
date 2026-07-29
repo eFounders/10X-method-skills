@@ -1,53 +1,61 @@
-# 10X Skills — Livrable v1
+# 10X Skills — Livrable v2 (complet : 33 skills)
 
-Premier lot du lead magnet "10X Skills" (Hexa) : les **15 skills 🥇 Flagship**, extraites du livre *The 10x Method* (244 pages, 8 chapitres + foreword + conclusion), chacune ancrée sur un framework/template/checklist réellement présent dans le livre.
+Les **33 skills** extraites du livre *The 10x Method* (244 pages, 8 chapitres + foreword + conclusion) : les 15 🥇 Flagship (v1) + les 18 🥈 Solid (v2). Chacune ancrée sur un framework/guidance réellement présent dans le livre.
 
 ## Contenu
 
 ```
 10x-skills/
-├── README.md                          ← ce fichier
-├── chapter-readmes/                   ← 9 fichiers, 1 par chapitre : résumé + frameworks + citations
-│   ├── chapter-01-becoming-a-10x-founder.md
-│   ├── chapter-02-finding-and-validating-the-idea.md
-│   ├── chapter-03-choosing-your-cofounder.md
-│   ├── chapter-04-building-the-mvp.md
-│   ├── chapter-05-hiring-and-retaining-early-talent.md
-│   ├── chapter-06-acquiring-the-very-first-customers.md
-│   ├── chapter-07-brand-and-communications.md
-│   ├── chapter-08-fundraising.md
-│   └── chapter-09-esg-for-early-stage.md
-└── skills/                            ← 15 skills, chacune = SKILL.md (+ references/ si besoin)
+├── README.md
+├── chapter-readmes/                   ← 9 fichiers, résumé + frameworks + citations par chapitre
+└── skills/                            ← 33 skills, chacune = SKILL.md (+ references/ si besoin)
+    │
+    ├── 🥇 FLAGSHIP (v1 — template/tableau verbatim dans le livre)
     ├── idea-categorizer/
     ├── idea-validation-roadmap-builder/
-    ├── cofounder-alignment-assessor/          (+ references/five-non-negotiables.md)
+    ├── cofounder-alignment-assessor/            (+ references/)
     ├── mvp-scope-checker/
     ├── milestone-roadmap-builder/
-    ├── job-description-builder/                (+ references/jd-writing-rules.md)
-    ├── scorecard-builder/                      (+ references/scorecard-example.md)
+    ├── job-description-builder/                  (+ references/)
+    ├── scorecard-builder/                        (+ references/)
     ├── design-partner-deck-builder/
     ├── bant-qualifier/
-    ├── brand-foundations-builder/               (+ references/brand-foundations-template.md)
+    ├── brand-foundations-builder/                 (+ references/)
     ├── brand-voice-finder/
-    ├── executive-summary-builder/               (+ references/exec-summary-template.md)
-    ├── pitch-deck-structure-builder/            (+ references/pitch-deck-template.md)
+    ├── executive-summary-builder/                 (+ references/)
+    ├── pitch-deck-structure-builder/              (+ references/)
     ├── data-room-builder/
-    └── esg-checklist/                           (+ references/esg-checklist-full.md)
+    ├── esg-checklist/                             (+ references/)
+    │
+    └── 🥈 SOLID (v2 — guidance claire, plus de synthèse)
+        ├── mindset-diagnostic/
+        ├── weekly-momentum-email-builder/
+        ├── cofounder-self-assessment/
+        ├── cofounder-process-tracker/
+        ├── product-rituals-setup/
+        ├── pivot-decision-helper/
+        ├── hiring-case-study-designer/
+        ├── reference-check-script-builder/
+        ├── onboarding-ritual-builder/
+        ├── icp-definer-refiner/
+        ├── dp-offer-pricing-helper/
+        ├── gtm-ritual-setup/
+        ├── outbound-sequence-builder/              (⚠️ chevauche l'offre Lemlist, gardé volontairement)
+        ├── website-tagline-builder/
+        ├── founder-branding-content-planner/
+        ├── pr-pitch-angle-builder/
+        ├── objection-anticipation-prep/
+        └── round-structuring-helper/
 ```
 
-## Ce qui reste à faire (prochain lot)
+## Notes importantes
 
-Les **18 skills 🥈 Solid** identifiées mais pas encore rédigées (guidance claire dans le livre, mais demandent plus de synthèse) :
-- Ch.I : 10x Founder Mindset Diagnostic, Weekly Momentum Email Builder
-- Ch.III : Cofounder Self-Assessment, Cofounder Process Tracker
-- Ch.IV : Product Rituals Setup, Pivot Decision Helper
-- Ch.V : Hiring Case Study Designer, Reference Check Script Builder, Onboarding Ritual Builder
-- Ch.VI : ICP Definer & Refiner, DP Offer & Pricing Helper, GTM Ritual Setup, Outbound Sequence Builder
-- Ch.VII : Website Structure & Tagline Builder, Founder Branding Content Planner, PR Pitch Angle Builder
-- Ch.VIII : Objection Anticipation Prep, Round Structuring Helper
+- **Toutes les descriptions sont ≤ 200 caractères** (contrainte du format skill claude.ai) et volontairement "pushy" pour maximiser le bon déclenchement (recommandation officielle Anthropic).
+- **Les 33 skills sont maintenant toutes ancrées sur le texte complet du livre** (v2 a permis de repasser sur le PDF pour enrichir 6 skills — `pivot-decision-helper`, `icp-definer-refiner`, `website-tagline-builder`, `founder-branding-content-planner`, `pr-pitch-angle-builder`, `round-structuring-helper` — qui ne s'appuyaient au départ que sur les titres de sous-parties). `data-room-builder` a aussi reçu un bonus : la liste des 6 erreurs courantes de data room trouvée au passage page 213.
+- Plusieurs skills se référencent entre elles dans leur workflow (ex: `dp-offer-pricing-helper` renvoie vers `gtm-ritual-setup`, `icp-definer-refiner` vers `bant-qualifier`) — Claude ne peut pas suivre ces références automatiquement s'il n'a pas les deux skills actives en même temps, donc en pratique il vaut mieux activer plusieurs skills liées ensemble plutôt qu'une seule isolée.
 
-Plus : les interviews fondateurs complètes (plusieurs n'ont pas encore été extraites en détail — Mathilde Collin, Christophe Pasquier, Jordane Giuly, Nicolas Saison, Jonathan Anguelov, Alex Louisy, Evan Testa) sont une réserve de storytelling/preuve sociale pour la landing page et les posts de lancement, à cataloguer séparément des skills elles-mêmes.
+## Reste à faire
 
-## Format de chaque skill
-
-Chaque dossier `skills/<nom>/` contient au minimum un `SKILL.md` (frontmatter `name` + `description`, suivi de : source dans le livre, ce que fait la skill, workflow étape par étape, format de sortie). Les skills dont le livre fournit un tableau/template long ont en plus un dossier `references/` avec le contenu verbatim, pour garder le SKILL.md sous la barre recommandée de 500 lignes.
+- Les interviews fondateurs complètes non encore extraites (Mathilde Collin, Christophe Pasquier, Jordane Giuly, Nicolas Saison, Jonathan Anguelov, Alex Louisy, Evan Testa) — réserve de storytelling pour la landing page / posts de lancement.
+- La landing page elle-même (structure + copy).
+- Le plan de lancement interne (comms kit équipe + posts LinkedIn).

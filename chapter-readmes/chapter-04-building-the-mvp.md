@@ -33,8 +33,8 @@ Design partners over pilots; focus on one metric post-launch; don't overthink pi
 
 - 🥇 **MVP Scope Checker** — the verbatim 5-point checklist
 - 🥇 **Milestone Roadmap Builder** — the 4-column template + LegalX worked example
-- 🥈 Product Rituals Setup (not yet built — solid tier)
-- 🥈 Pivot Decision Helper (not yet built — solid tier)
+- 🥈 Product Rituals Setup → skill `product-rituals-setup`
+- 🥈 Pivot Decision Helper → skill `pivot-decision-helper`
 
 ## Notable quotes
 

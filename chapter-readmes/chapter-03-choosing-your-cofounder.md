@@ -29,8 +29,8 @@ Define roles clearly, split equity deliberately, bring in a cofounder coach earl
 ## Skills derived from this chapter
 
 - 🥇 **Cofounder Alignment Assessor** — the 5 non-negotiables table + full question bank → alignment scorecard
-- 🥈 Cofounder Self-Assessment (not yet built — solid tier)
-- 🥈 Cofounder Process Tracker (not yet built — solid tier)
+- 🥈 Cofounder Self-Assessment → skill `cofounder-self-assessment`
+- 🥈 Cofounder Process Tracker → skill `cofounder-process-tracker`
 
 ## Notable quotes
 

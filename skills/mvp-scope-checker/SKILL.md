@@ -1,6 +1,6 @@
 ---
 name: mvp-scope-checker
-description: Check whether an MVP plan is correctly scoped against Hexa's 10x Method 5-point checklist, and flag overbuilding. Use whenever a founder describes their MVP plan, feature list, or asks "is this too much for a first version?", "am I overbuilding?", or "what should I cut from my MVP?".
+description: Check an MVP plan against Hexa's 10x Method 5-point checklist and flag overbuilding. Use when a founder describes MVP scope or asks if they're overbuilding.
 ---
 
 # MVP Scope Checker

@@ -1,6 +1,6 @@
 ---
 name: idea-validation-roadmap-builder
-description: Turn a startup idea into a concrete, time-boxed validation plan following Hexa's 10x Method (become an expert, scope the idea, create wireframes, validation timeline). Use whenever a founder has an idea and asks "how do I validate this?", "what should I do before building?", "am I ready to start building?", or wants a plan for the pre-build phase.
+description: Turn a startup idea into a time-boxed validation plan (become an expert, scope it, wireframe it) per Hexa's 10x Method. Use when a founder asks how to validate an idea before building.
 ---
 
 # Idea Validation Roadmap Builder

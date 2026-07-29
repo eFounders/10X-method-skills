@@ -1,6 +1,6 @@
 ---
 name: brand-voice-finder
-description: Turn a startup's "brand feeling" into 2-3 concrete voice adjectives that guide tone across all copy, following Hexa's 10x Method. Use whenever a founder wants help defining tone of voice, brand personality, or needs guidance on how their copy (landing page, social posts, job descriptions, support replies) should sound.
+description: Turn a brand feeling into 2-3 concrete voice adjectives per Hexa's 10x Method. Use for tone-of-voice, brand personality, or copywriting guidance requests.
 ---
 
 # Brand Voice Finder

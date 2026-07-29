@@ -35,8 +35,8 @@ Executive Summary → Market → Product → GTM → Team — centralized in a s
 - 🥇 **Executive Summary Builder**
 - 🥇 **Pitch Deck Structure Builder**
 - 🥇 **Data Room Builder**
-- 🥈 Objection Anticipation Prep (not yet built — solid tier)
-- 🥈 Round Structuring Helper (not yet built — solid tier)
+- 🥈 Objection Anticipation Prep → skill `objection-anticipation-prep`
+- 🥈 Round Structuring Helper → skill `round-structuring-helper`
 
 ## Notable quotes
 

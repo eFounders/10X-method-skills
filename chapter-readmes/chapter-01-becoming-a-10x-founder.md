@@ -20,8 +20,8 @@ The mindset chapter — 10 principles Hexa has observed across its 50+ launched 
 
 ## Skills derived from this chapter
 
-- 🥈 10x Founder Mindset Diagnostic (not yet built — solid tier)
-- 🥈 Weekly Momentum Email Builder (not yet built — solid tier, based on principle #4)
+- 🥈 10x Founder Mindset Diagnostic → skill `mindset-diagnostic`
+- 🥈 Weekly Momentum Email Builder → skill `weekly-momentum-email-builder`
 
 ## Notable quotes (for landing page / launch posts)
 

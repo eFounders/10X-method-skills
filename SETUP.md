@@ -1,96 +1,92 @@
-# Setup — comment utiliser ces skills
+# Setup: how to use these skills
 
-Ce repo contient des **Agent Skills Claude** (format `SKILL.md`) extraites de
-*The 10x Method* (Hexa). Chaque skill apprend à Claude un framework précis du
-livre pour l'appliquer à ta propre startup. Ce guide explique comment les
-installer et les déclencher, que tu utilises **Claude Code** (CLI/VS
-Code/web) ou **claude.ai**.
+This repo contains **Claude Agent Skills** (`SKILL.md` format) built from
+*The 10x Method* by Hexa. Each skill teaches Claude one specific framework
+from the book so you can apply it to your own startup. This guide explains
+how to install and trigger them, whether you use **Claude Code** (CLI, VS
+Code, web) or **claude.ai**.
 
-## 1. Où copier les skills
+## 1. Where to put the skills
 
-Chaque dossier `skills/<nom-de-skill>/` (avec son `SKILL.md` et, pour
-certaines, un sous-dossier `references/`) doit être copié dans un dossier
-`skills/` reconnu par Claude. Deux portées possibles :
+Each `skills/<skill-name>/` folder (its `SKILL.md` and, for some skills, a
+`references/` subfolder) must be copied into a `skills/` folder that Claude
+recognises. Pick one of three options:
 
-**Option A — Une seule startup / projet (recommandé pour démarrer)**
+**Option A: one project (recommended to start)**
 
-Copie les skills que tu veux dans le dossier `.claude/skills/` à la racine
-du repo de ton projet :
+Copy the skills you want into `.claude/skills/` at the root of your
+project's repo:
 
 ```bash
-mkdir -p /chemin/vers/ton-projet/.claude/skills
-cp -r skills/idea-categorizer /chemin/vers/ton-projet/.claude/skills/
-cp -r skills/mvp-scope-checker /chemin/vers/ton-projet/.claude/skills/
-# ... répète pour chaque skill voulue, ou copie tout le dossier :
-cp -r skills/* /chemin/vers/ton-projet/.claude/skills/
+mkdir -p /path/to/your-project/.claude/skills
+cp -r skills/idea-categorizer /path/to/your-project/.claude/skills/
+cp -r skills/mvp-scope-checker /path/to/your-project/.claude/skills/
+# ...repeat for each skill you want, or copy them all:
+cp -r skills/* /path/to/your-project/.claude/skills/
 ```
 
-Elles ne seront disponibles que dans les sessions Claude Code ouvertes sur
-ce projet.
+They will only be available in Claude Code sessions opened on that project.
 
-**Option B — Toutes tes startups / usage perso**
+**Option B: all your projects**
 
-Copie-les dans ton dossier utilisateur global, disponible dans toutes tes
-sessions Claude Code :
+Copy them into your global user folder so they're available in every
+Claude Code session:
 
 ```bash
 mkdir -p ~/.claude/skills
 cp -r skills/* ~/.claude/skills/
 ```
 
-**Option C — claude.ai (interface web/app)**
+**Option C: claude.ai (web and desktop app)**
 
-Dans les paramètres de ton Projet (ou de ton compte, selon ton plan), va
-dans la section **Skills / Capabilities** et importe chaque dossier
-`skills/<nom>/` (ou uploade son contenu en zip si l'interface le demande).
-Le contenu et le format (`SKILL.md` + `references/`) sont identiques.
+Zip each `skills/<skill-name>/` folder you want, then upload it in the
+Skills section of your claude.ai settings. The content and format
+(`SKILL.md` + `references/`) are exactly the same.
 
-## 2. Comment ça se déclenche
+## 2. How skills get triggered
 
-Pas besoin de "lancer" une skill manuellement : Claude lit le champ
-`description` de chaque `SKILL.md` et déclenche la bonne skill tout seul
-quand ta question y correspond.
+You don't need to "launch" a skill manually. Claude reads the
+`description` field of each `SKILL.md` and picks the right skill on its
+own when your request matches.
 
-Exemples de phrases qui déclenchent automatiquement une skill :
-- *"J'ai une idée de startup dans la fintech, tu en penses quoi ?"* → `idea-categorizer`
-- *"Voici mon plan MVP, est-ce que j'en fais trop ?"* → `mvp-scope-checker`
-- *"Aide-moi à écrire la JD pour mon premier ingé"* → `job-description-builder`
-- *"Je prépare mon pitch deck pour la levée"* → `pitch-deck-structure-builder`
+Examples of prompts that trigger a skill automatically:
+- *"I have a fintech startup idea, what do you think?"* → `idea-categorizer`
+- *"Here's my MVP plan, am I overbuilding?"* → `mvp-scope-checker`
+- *"Help me write the job description for my first engineer"* → `job-description-builder`
+- *"I'm preparing my pitch deck for our seed round"* → `pitch-deck-structure-builder`
 
-Tu peux aussi être explicite : *"Utilise la skill scorecard-builder pour
-préparer mes entretiens"*.
+You can also be explicit: *"Use the scorecard-builder skill to prepare my
+interviews"*.
 
-Si une skill ne se déclenche pas comme attendu, vérifie que :
-1. le dossier est bien copié à l'un des emplacements ci-dessus,
-2. le nom du dossier correspond au `name:` du frontmatter,
-3. tu as ouvert une **nouvelle session** Claude Code après la copie (les
-   skills sont chargées au démarrage de la session).
+If a skill doesn't trigger as expected, check that:
+1. the folder was copied to one of the locations above,
+2. the folder name matches the `name:` field in the frontmatter,
+3. you opened a **new session** after copying (skills load when a session
+   starts).
 
-## 3. Dans quel ordre les utiliser
+## 3. Which skills to use when
 
-Les skills suivent globalement la progression du livre. Utile si tu
-construis une startup de zéro, mais chaque skill fonctionne aussi de façon
-indépendante :
+The skills follow the book's progression. That's useful if you're building
+a startup from scratch, but every skill also works on its own.
 
-| Étape | Skill(s) | Chapitre |
+| Stage | Skills | Chapter |
 |---|---|---|
-| 1. Trouver et valider l'idée | `idea-categorizer`, `idea-validation-roadmap-builder` | Ch.II |
-| 2. Choisir son cofondateur | `cofounder-alignment-assessor` | Ch.III |
-| 3. Construire le MVP | `mvp-scope-checker`, `milestone-roadmap-builder` | Ch.IV |
-| 4. Recruter les premiers talents | `job-description-builder`, `scorecard-builder` | Ch.V |
-| 5. Trouver les premiers clients | `design-partner-deck-builder`, `bant-qualifier` | Ch.VI |
-| 6. Brand & communication | `brand-foundations-builder`, `brand-voice-finder` | Ch.VII |
-| 7. Lever des fonds | `executive-summary-builder`, `pitch-deck-structure-builder`, `data-room-builder` | Ch.VIII |
-| 8. ESG dès le début | `esg-checklist` | Ch.IX |
+| 1. Become a 10x founder | `mindset-diagnostic`, `weekly-momentum-email-builder` | Ch. I |
+| 2. Find and validate the idea | `idea-categorizer`, `idea-validation-roadmap-builder` | Ch. II |
+| 3. Choose your cofounder | `cofounder-self-assessment`, `cofounder-alignment-assessor`, `cofounder-process-tracker` | Ch. III |
+| 4. Build the MVP | `mvp-scope-checker`, `milestone-roadmap-builder`, `product-rituals-setup`, `pivot-decision-helper` | Ch. IV |
+| 5. Hire your first talents | `job-description-builder`, `scorecard-builder`, `hiring-case-study-designer`, `reference-check-script-builder`, `onboarding-ritual-builder` | Ch. V |
+| 6. Land your first customers | `icp-definer-refiner`, `design-partner-deck-builder`, `bant-qualifier`, `dp-offer-pricing-helper`, `gtm-ritual-setup`, `outbound-sequence-builder` | Ch. VI |
+| 7. Brand and communications | `brand-foundations-builder`, `brand-voice-finder`, `website-tagline-builder`, `founder-branding-content-planner`, `pr-pitch-angle-builder` | Ch. VII |
+| 8. Raise funds | `executive-summary-builder`, `pitch-deck-structure-builder`, `data-room-builder`, `objection-anticipation-prep`, `round-structuring-helper` | Ch. VIII |
+| 9. ESG from day one | `esg-checklist` | Ch. IX |
 
-Pour le contexte complet d'un chapitre (résumé, citations, frameworks
-annexes non transformés en skill), consulte le fichier correspondant dans
-`chapter-readmes/`.
+For a chapter's full context (summary, quotes, frameworks that weren't
+turned into a skill), see the matching file in `chapter-readmes/`.
 
-## 4. Mettre à jour ou ajouter des skills
+## 4. Updating or adding skills
 
-Si tu modifies un `SKILL.md` déjà installé, recopie-le à l'emplacement
-choisi à l'étape 1 puis redémarre ta session Claude Code pour que le
-changement soit pris en compte. Les nouvelles skills ajoutées à ce repo (cf.
-la liste "reste à faire" dans le `README.md`) s'installent de la même
-façon.
+We add new skills to this repo in regular drops (see "Always growing" in
+the `README.md`). New skills install the same way. If a skill you already
+installed gets updated, copy it again to the location you chose in step 1
+and restart your session so the change is picked up.

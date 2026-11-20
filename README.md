@@ -94,3 +94,7 @@ Watch or star this repo to get notified when new skills land.
 ## The book
 
 *The 10x Method* is Hexa's founder playbook. The full PDF is included in this repo (`Hexa-10X-Method.pdf`), and you can find out more at [hexa.com/10xmethod](https://www.hexa.com/10xmethod).
+
+## License
+
+The 10x Skills are licensed under [CC BY-NC 4.0](https://creativecommons.org/licenses/by-nc/4.0/). Use them, adapt them and share them with credit to Hexa. Commercial use is not permitted. See `LICENSE`.

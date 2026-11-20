@@ -2,7 +2,7 @@
 
 **15 years of building startups, distilled into 33 Claude Skills.**
 
-Hexa has been launching 50+ companies for 14 years. *The 10x Method* is the playbook we wrote from that experience — the frameworks, checklists, and templates we actually use with founders, from finding an idea to raising a Series A.
+Hexa has launched 50+ companies over the past 15 years. *The 10x Method* is the playbook we wrote from that experience — the frameworks, checklists, and templates we actually use with founders, from finding an idea to raising a Series A.
 
 This repo turns that book into something you can run, not just read: 33 Claude Skills, one for (almost) every actionable framework in the book. Load them into Claude and get the same structured thinking our own partners bring to portfolio founders — on your own idea, your own hiring decisions, your own pitch deck.
 
@@ -83,6 +83,14 @@ Installation instructions → see `SETUP.md`.
 
 A generic AI answer about "how to hire your first engineer" is fine. It's not what got 50+ companies built. Each skill here is grounded in an actual framework from the book — the same scorecard template, the same cofounder question bank, the same pitch deck structure we use with founders in the room. Load the skill, and Claude uses *that*, not a generic best-practice essay.
 
+## Always growing
+
+This library isn't a one-off. We'll keep adding new skills drawn from how Hexa builds companies, released as regular drops.
+
+**Next drop: the GTM Pack.** Lead magnets, discovery call prep, founder-led content and more, straight from the playbooks our GTM team runs with portfolio founders.
+
+Watch or star this repo to get notified when new skills land.
+
 ## The book
 
-*The 10x Method* is Hexa's founder playbook, available at [media.hexa.com](https://media.hexa.com) / wherever you got this from.
+*The 10x Method* is Hexa's founder playbook. The full PDF is included in this repo (`Hexa-10X-Method.pdf`), and you can find out more at [hexa.com/10xmethod](https://www.hexa.com/10xmethod).
